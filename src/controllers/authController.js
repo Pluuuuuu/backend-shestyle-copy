@@ -1,5 +1,5 @@
 const User = require('../models/User');
-const bcrypt = require('bcryptjs');
+const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
@@ -91,7 +91,7 @@ exports.signup = async (req, res) => {
 
 
 // try2
-// const bcrypt = require('bcryptjs');
+// const bcrypt = require('bcrypt');
 // const jwt = require('jsonwebtoken');
 // const { User } = require('../models/User'); // Sequelize models are in the models folder
 // require('dotenv').config();
@@ -162,7 +162,7 @@ exports.signup = async (req, res) => {
 
 
 // try1
-// const bcrypt = require('bcryptjs');
+// const bcrypt = require('bcrypt');
 // const jwt = require('jsonwebtoken');
 // const db = require('../models/db'); // Adjust the path if needed
 

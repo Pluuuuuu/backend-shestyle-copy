@@ -42,7 +42,7 @@ exports.isAdmin = (req, res, next) => {
 
 
 
-// const bcrypt = require('bcryptjs');
+// const bcrypt = require('bcrypt');
 // const jwt = require('jsonwebtoken');
 // // const { User } = require('../models/User'); // Sequelize models are in the models folder
 
