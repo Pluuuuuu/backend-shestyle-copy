@@ -1,0 +1,88 @@
+1️⃣ User Account Page (Customer Profile)
+Frontend Tasks
+Page Structure:
+
+Display user information (Name, Email, Phone).
+Editable fields for updating user profile.
+Address book (Saved Addresses).
+Order History (Linked to Order Details Page).
+Wishlist (Linked to Wishlist Page).
+Logout button.
+API Integration:
+
+Fetch User Details (GET /user/profile)
+Update User Profile (PUT /user/update)
+Fetch Order History (GET /order/history)
+Fetch Wishlist Items (GET /wishlist)
+Logout Functionality (Clear JWT Token)
+Components Needed:
+
+Profile Information Component
+Address Management Component
+Order History Component
+Wishlist Component
+Backend Tasks
+Routes & Controllers (User)
+
+GET /user/profile → Returns user details.
+PUT /user/update → Updates user profile (name, email, password, address).
+GET /order/history → Fetches all past orders of the user.
+GET /wishlist → Retrieves wishlist items.
+POST /user/logout → Clears JWT token.
+Database (User Model)
+
+Modify User table to include:
+name
+email
+password
+phone
+addresses (Array of addresses)
+Relationship:
+User.hasMany(Order)
+User.hasMany(Wishlist)
+2️⃣ Categories Page
+Frontend Tasks
+Page Structure:
+
+Display all product categories.
+Each category should link to a Product Listing Page filtered by category.
+UI with images/icons for each category.
+Clicking a category takes the user to /products?category=selectedCategory.
+API Integration:
+
+Fetch Categories (GET /categories)
+Fetch Products by Category (GET /products?category=id)
+Components Needed:
+
+Category List Component (Grid View)
+Category Card Component (Image + Name)
+Product List Component (Linked to Product Listing Page)
+Backend Tasks
+Routes & Controllers (Category)
+
+GET /categories → Fetch all categories.
+GET /products?category=id → Fetch products under a category.
+Database (Category Model)
+
+id
+name
+image
+Relationship:
+Category.hasMany(Product)
+Dependency Between Pages
+✅ User Account Page requires:
+
+Orders API working
+Wishlist API working
+User authentication setup
+✅ Categories Page requires:
+
+Categories API working
+Product Listing Page API working
+What Needs to Be Done First?
+User Authentication & Profile API
+Order & Wishlist API
+Categories API
+Product Listing Page API
+Frontend Development for User Account & Categories Page
+Would you like to start with the backend or frontend first? 🚀
