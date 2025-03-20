@@ -15,10 +15,10 @@ exports.signup = async (req, res) => {
             return res.status(400).json({ message: 'Email already in use' });
         }
         // Hash the password before saving
-        // const hashedPassword = await bcrypt.hash(password, 10);
-        // console.log("Hashed Password:", hashedPassword); // Log this to confirm it's hashed
+        const hashedPassword = await bcrypt.hash(password, 10);
+        console.log("Hashed Password:", hashedPassword); // Log this to confirm it's hashed
         // Create new user
-        const newUser = await User.create({ name, email, password, role });
+        const newUser = await User.create({ name, email, password: hashedPassword, role });
         // Send response with the token
         res.status(201).json({ message: 'User registered successfully', user: newUser });
     } catch (error) {
@@ -28,6 +28,7 @@ exports.signup = async (req, res) => {
 
 // Signup endpoint | Registration
 exports.login = async (req, res) => {
+    console.log("HELLO");
     try {
         const { email, password } = req.body;
 
@@ -43,6 +44,10 @@ exports.login = async (req, res) => {
         console.log("Incoming Password (Plain):", password);
 
         console.log("Stored Password Hash:", user.password);
+
+        const myPassword = "$2b$10$INRWn9wo/dmrQ6lrJLpVv.YjDFpZLaHzZble6y.TKc4sC6s9CdakC";
+
+        console.log("CHECK:", user.password === myPassword)
 
           // Step 2: Hash the provided password before comparing
         //   const hashedInputPassword = await bcrypt.hash(password, 10);
@@ -63,10 +68,7 @@ exports.login = async (req, res) => {
             expiresIn: "1h"
         });
 
-        res.json({ message: "Login successful", token });
-
-        res.json({ message: "Login successful" });
-
+        return res.json({ message: "Login successful", token });
     } catch (error) {
         console.error("Login error:", error);
         res.status(500).json({ message: "Server error" });

@@ -5,7 +5,7 @@ const categoryController = require('../controllers/categoryController');
 const router = express.Router();
 
 // Admin Routes
-router.post('/add', isAdmin, categoryController.addCategory);
+router.post('/add', categoryController.addCategory);
 router.delete('/delete/:id', isAdmin, categoryController.deleteCategory);
 router.put('/update/:id', isAdmin, categoryController.updateCategory);
 
