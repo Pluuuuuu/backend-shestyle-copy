@@ -7,9 +7,18 @@ const authRoutes = require('./routes/authRoutes');
 const categoryRoutes = require('./routes/categoryRoutes');
 const productRoutes = require('./routes/productRoutes');
 const userRoutes = require('./routes/userRoutes');
-
+const cors = require("cors");
 const app = express();
 
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+    methods: ["GET", "HEAD", "PUT", "PATCH", "POST", "DELETE"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true,
+    maxAge: 600,
+  })
+);
 app.use(express.json()); // Middleware for parsing JSON requests
 
 app.use((req, res, next) => {

@@ -2,7 +2,7 @@
     "type": "MySQLNotebook",
     "version": "1.0",
     "caption": "DB Notebook",
-    "content": "\\about\nSHOW DATABASES;\nUSE shestyle_db;\nSHOW TABLES;\nDESCRIBE Products;\n\nDESCRIBE Products;\nDESCRIBE Users;\nselect * from users;\nDESCRIBE Users;\nselect * from users;\nUSE shestyle_db;\nselect * from users;\nUSE shestyle_db;\nselect * from users;\nSELECT email, password FROM Users WHERE email = 'admin5335@example.com';\nUSE shestyle_db;\nselect * from users;\nSELECT email, password FROM Users WHERE email = 'admin5335@example.com';\n",
+    "content": "\\about\nSHOW DATABASES;\nUSE shestyle_db;\nSHOW TABLES;\nDESCRIBE Products;\n\nDESCRIBE Products;\nDESCRIBE Users;\nselect * from users;\nDESCRIBE Users;\nselect * from users;\nUSE shestyle_db;\nselect * from users;\nUSE shestyle_db;\nselect * from users;\nSELECT email, password FROM Users WHERE email = 'admin5335@example.com';\nUSE shestyle_db;\nselect * from users;\nSELECT email, password FROM Users WHERE email = 'admin5335@example.com';\nselect * from users;\n\nUSE shestyle_db;\nselect * from users;\n",
     "options": {
         "tabSize": 4,
         "insertSpaces": true,
@@ -15,11 +15,11 @@
             {
                 "inSelectionMode": false,
                 "selectionStart": {
-                    "lineNumber": 20,
+                    "lineNumber": 24,
                     "column": 1
                 },
                 "position": {
-                    "lineNumber": 20,
+                    "lineNumber": 24,
                     "column": 1
                 }
             }
@@ -27,10 +27,10 @@
         "viewState": {
             "scrollLeft": 0,
             "firstPosition": {
-                "lineNumber": 16,
+                "lineNumber": 20,
                 "column": 1
             },
-            "firstPositionDeltaTop": 78
+            "firstPositionDeltaTop": -23
         },
         "contributionsState": {
             "editor.contrib.folding": {},
@@ -77,8 +77,8 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "8d2a7f0c-1dd4-4a6e-c911-b95d40e27d58",
-                        "43ec5dbf-c642-4b35-e28c-f7214ebfd97f"
+                        "bfa78305-94ab-4ac2-8e68-19d84e86aa79",
+                        "0f5fde91-ca77-4a7e-b8b2-074245d2ada1"
                     ]
                 },
                 "currentHeight": 286.58331298828125,
@@ -134,7 +134,7 @@
             "data": [
                 {
                     "tabId": "1",
-                    "resultId": "8d2a7f0c-1dd4-4a6e-c911-b95d40e27d58",
+                    "resultId": "bfa78305-94ab-4ac2-8e68-19d84e86aa79",
                     "rows": [
                         {
                             "0": "databasetry"
@@ -187,7 +187,7 @@
                 },
                 {
                     "tabId": "1",
-                    "resultId": "43ec5dbf-c642-4b35-e28c-f7214ebfd97f",
+                    "resultId": "0f5fde91-ca77-4a7e-b8b2-074245d2ada1",
                     "rows": [
                         {
                             "0": "carts"
@@ -254,7 +254,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "380f684c-22d3-43ec-f57a-674441544873"
+                        "37341919-ec97-4faf-d19c-ccea7a839339"
                     ]
                 },
                 "currentHeight": 292,
@@ -274,7 +274,7 @@
             "data": [
                 {
                     "tabId": "1",
-                    "resultId": "380f684c-22d3-43ec-f57a-674441544873",
+                    "resultId": "37341919-ec97-4faf-d19c-ccea7a839339",
                     "rows": [
                         {
                             "0": "id",
@@ -472,7 +472,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "ff61f69e-b85c-41df-b13e-21167ab32046"
+                        "a3502a9a-ffcb-4212-d5cb-aeb147ca3cbb"
                     ]
                 },
                 "currentHeight": 259,
@@ -492,7 +492,7 @@
             "data": [
                 {
                     "tabId": "1",
-                    "resultId": "ff61f69e-b85c-41df-b13e-21167ab32046",
+                    "resultId": "a3502a9a-ffcb-4212-d5cb-aeb147ca3cbb",
                     "rows": [
                         {
                             "0": "id",
@@ -762,7 +762,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "35a6d13c-ce4f-45b7-9290-67685aed6017"
+                        "744700e2-f045-4ede-8bd9-09910bb72d5e"
                     ]
                 },
                 "currentHeight": 136,
@@ -791,7 +791,7 @@
             "data": [
                 {
                     "tabId": "1",
-                    "resultId": "35a6d13c-ce4f-45b7-9290-67685aed6017",
+                    "resultId": "744700e2-f045-4ede-8bd9-09910bb72d5e",
                     "rows": [
                         {
                             "0": 1,
@@ -938,7 +938,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "40bb8a38-5b92-433e-cea9-3f33d06ea3f5"
+                        "8513d3b2-fd02-4127-8780-197858afe541"
                     ]
                 },
                 "currentHeight": 161,
@@ -967,7 +967,7 @@
             "data": [
                 {
                     "tabId": "1",
-                    "resultId": "40bb8a38-5b92-433e-cea9-3f33d06ea3f5",
+                    "resultId": "8513d3b2-fd02-4127-8780-197858afe541",
                     "rows": [
                         {
                             "0": 1,
@@ -1158,8 +1158,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "78862b93-0eb7-4df0-ac9a-b694644b7422",
-                        "811c4f13-d4c2-4b75-81fd-f5ecf686501f"
+                        "58f92722-a428-4be4-be9a-cdabcff1d95a"
                     ]
                 },
                 "currentHeight": 352,
@@ -1197,7 +1196,7 @@
             "data": [
                 {
                     "tabId": "1",
-                    "resultId": "78862b93-0eb7-4df0-ac9a-b694644b7422",
+                    "resultId": "58f92722-a428-4be4-be9a-cdabcff1d95a",
                     "rows": [
                         {
                             "0": 1,
@@ -1441,27 +1440,314 @@
                     "sql": "\nselect * from users",
                     "updatable": true,
                     "fullTableName": "users"
-                },
-                {
-                    "tabId": "1",
-                    "resultId": "811c4f13-d4c2-4b75-81fd-f5ecf686501f",
-                    "rows": [],
-                    "executionInfo": {
-                        "text": "OK, 0 records retrieved in 0.642ms"
-                    },
-                    "totalRowCount": 0,
-                    "hasMoreRows": false,
-                    "currentPage": 0,
-                    "index": 0,
-                    "sql": "USE shestyle_db",
-                    "updatable": false
                 }
             ]
         },
         {
             "state": {
                 "start": 20,
-                "end": 20,
+                "end": 21,
+                "language": "mysql",
+                "result": {
+                    "type": "text",
+                    "text": [
+                        {
+                            "type": 0,
+                            "index": 0,
+                            "content": "MySQL Error (1046): No database selected",
+                            "language": "ansi"
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": ""
+                    }
+                },
+                "currentHeight": 28,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 20
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 20,
+                            "length": 1
+                        },
+                        "contentStart": 19,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 22,
+                "end": 23,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "73b31a35-a9e1-4f7f-dd28-a88b3061cd98"
+                    ]
+                },
+                "currentHeight": 352,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 16
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 16,
+                            "length": 21
+                        },
+                        "contentStart": 17,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "1",
+                    "resultId": "73b31a35-a9e1-4f7f-dd28-a88b3061cd98",
+                    "rows": [
+                        {
+                            "0": 1,
+                            "1": "Omar",
+                            "2": "omar@gmail.com",
+                            "3": "$2b$10$INRWn9wo/dmrQ6lrJLpVv.YjDFpZLaHzZble6y.TKc4sC6s9CdakC",
+                            "4": "customer",
+                            "5": "2025-03-20 11:33:14",
+                            "6": "2025-03-20 11:33:14"
+                        },
+                        {
+                            "0": 2,
+                            "1": "onsbhw",
+                            "2": "omajr@gmail.com",
+                            "3": "$2b$10$cHge310MizpnK04uK11X3.gzV1HR23hyw1kHrAF/SiFdBoYILqLkS",
+                            "4": "customer",
+                            "5": "2025-03-20 11:42:03",
+                            "6": "2025-03-20 11:42:03"
+                        },
+                        {
+                            "0": 3,
+                            "1": "Omar",
+                            "2": "omar1@gmail.com",
+                            "3": "$2b$10$1mnxr28nPEnqS3G.pHy1veQQV9UMM7Bks9TDJJWBp//QFEVzy1KGO",
+                            "4": "admin",
+                            "5": "2025-03-20 12:04:15",
+                            "6": "2025-03-20 12:04:15"
+                        },
+                        {
+                            "0": 4,
+                            "1": "Omar",
+                            "2": "omar11@gmail.com",
+                            "3": "$2b$10$zXD2JNeyxeG0Hkww5.gUL.ao/CqPa.BqyzsxEnTVF/2YJptE2ihba",
+                            "4": "customer",
+                            "5": "2025-03-20 12:05:38",
+                            "6": "2025-03-20 12:05:38"
+                        },
+                        {
+                            "0": 5,
+                            "1": "Omar",
+                            "2": "omar111@gmail.com",
+                            "3": "$2b$10$GRbqVRtqtm9MmyvX0I267evK2MAn5Bwdta4ICC8j2ApJbEZiGjw2m",
+                            "4": "customer",
+                            "5": "2025-03-20 12:06:09",
+                            "6": "2025-03-20 12:06:09"
+                        },
+                        {
+                            "0": 6,
+                            "1": "Omar",
+                            "2": "omar1111@gmail.com",
+                            "3": "$2b$10$PE0i/UI6ftyyrblaZaHJuuRmTUPmLfOR4MdvUVEg4z/lm5FaOYCHm",
+                            "4": "customer",
+                            "5": "2025-03-20 12:06:26",
+                            "6": "2025-03-20 12:06:26"
+                        },
+                        {
+                            "0": 7,
+                            "1": "Omar",
+                            "2": "omar+1@gmail.com",
+                            "3": "12345",
+                            "4": "admin",
+                            "5": "2025-03-20 12:07:06",
+                            "6": "2025-03-20 12:07:06"
+                        },
+                        {
+                            "0": 8,
+                            "1": "Omar",
+                            "2": "omar+2@gmail.com",
+                            "3": "$2b$10$VQb90/VPvnDnbGBsrJex7.vjRA/ybW58bi.FU6H2nTx4WgklCIB9m",
+                            "4": "admin",
+                            "5": "2025-03-20 12:08:09",
+                            "6": "2025-03-20 12:08:09"
+                        },
+                        {
+                            "0": 9,
+                            "1": "Omar",
+                            "2": "omar+3@gmail.com",
+                            "3": "12345",
+                            "4": "admin",
+                            "5": "2025-03-20 12:09:30",
+                            "6": "2025-03-20 12:09:30"
+                        },
+                        {
+                            "0": 10,
+                            "1": "Omar",
+                            "2": "omar+4@gmail.com",
+                            "3": "$2b$10$CNBjrJu4GbqA98m25HPK6OGB7OA4r5YI1sI5K/vutMkB2dzQflqUq",
+                            "4": "admin",
+                            "5": "2025-03-20 12:10:05",
+                            "6": "2025-03-20 12:10:05"
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "id",
+                            "field": "0",
+                            "dataType": {
+                                "type": 4,
+                                "flags": [
+                                    "SIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 10,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "INTEGER",
+                                    "INT4"
+                                ]
+                            },
+                            "inPK": true,
+                            "nullable": false,
+                            "autoIncrement": true
+                        },
+                        {
+                            "title": "name",
+                            "field": "1",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "email",
+                            "field": "2",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "password",
+                            "field": "3",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "role",
+                            "field": "4",
+                            "dataType": {
+                                "type": 43,
+                                "needsQuotes": true
+                            },
+                            "inPK": false,
+                            "nullable": true,
+                            "autoIncrement": false,
+                            "default": "customer"
+                        },
+                        {
+                            "title": "createdAt",
+                            "field": "5",
+                            "dataType": {
+                                "type": 26,
+                                "dateTimePrecision": 8,
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "updatedAt",
+                            "field": "6",
+                            "dataType": {
+                                "type": 26,
+                                "dateTimePrecision": 8,
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 10 records retrieved in 2.222ms"
+                    },
+                    "totalRowCount": 10,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 1,
+                    "sql": "\nselect * from users",
+                    "updatable": true,
+                    "fullTableName": "users"
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 24,
+                "end": 24,
                 "language": "mysql",
                 "currentSet": 1,
                 "statements": [
