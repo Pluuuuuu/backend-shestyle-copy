@@ -1,4 +1,4 @@
-// const { Product, Category } = require('../models');
+// Import models and database configuration
 const db = require('../config/db'); // Import db.js to ensure associations are loaded
 const Product = require('../models/Product');
 const Category = require('../models/Category');
@@ -7,13 +7,21 @@ const Category = require('../models/Category');
 const addProduct = async (req, res) => {
   const { name, description, price, stock, categoryId } = req.body;
   try {
+    // Check if the categoryId exists
+    const category = await Category.findByPk(categoryId);
+    if (!category) {
+      return res.status(404).json({ message: 'Category not found' });
+    }
+
+    // Create product and associate with categoryId
     const product = await Product.create({
       name,
       description,
       price,
       stock,
-      category_id: categoryId
+      category_id: categoryId, // Ensure the categoryId is correctly set
     });
+
     res.status(201).json(product);
   } catch (error) {
     res.status(500).json({ message: 'Server error', error });
@@ -24,7 +32,7 @@ const addProduct = async (req, res) => {
 const getAllProducts = async (req, res) => {
   try {
     const products = await Product.findAll({
-      include: [{ model: Category }] // Removed alias
+      include: [{ model: Category }] // Include Category model with proper association
     });
     res.json(products);
   } catch (error) {
@@ -37,7 +45,7 @@ const getProductById = async (req, res) => {
   const { id } = req.params;
   try {
     const product = await Product.findByPk(id, {
-      include: [{ model: Category }] // Removed alias
+      include: [{ model: Category }] // Include Category model with proper association
     });
     if (!product) return res.status(404).json({ message: 'Product not found' });
 
@@ -53,7 +61,7 @@ const getProductsByCategory = async (req, res) => {
   try {
     const products = await Product.findAll({
       where: { category_id: categoryId },
-      include: [{ model: Category }] // Removed alias
+      include: [{ model: Category }] // Include Category model with proper association
     });
     res.json(products);
   } catch (error) {

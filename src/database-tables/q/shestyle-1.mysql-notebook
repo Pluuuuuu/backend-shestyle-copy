@@ -2,7 +2,7 @@
     "type": "MySQLNotebook",
     "version": "1.0",
     "caption": "DB Notebook",
-    "content": "\\about\nSHOW DATABASES;\nUSE shestyle_db;\nSHOW TABLES;\nDESCRIBE Products;\n\nDESCRIBE Products;\nDESCRIBE Users;\nselect * from users;\nDESCRIBE Users;\nselect * from users;\nUSE shestyle_db;\nselect * from users;\nUSE shestyle_db;\nselect * from users;\nSELECT email, password FROM Users WHERE email = 'admin5335@example.com';\nUSE shestyle_db;\nselect * from users;\nSELECT email, password FROM Users WHERE email = 'admin5335@example.com';\nselect * from users;\n\nUSE shestyle_db;\nselect * from users;\n",
+    "content": "\\about\nSHOW DATABASES;\nUSE shestyle_db;\nSHOW TABLES;\nDESCRIBE Products;\n\nDESCRIBE Products;\nDESCRIBE Users;\nselect * from users;\nDESCRIBE Users;\nselect * from users;\nUSE shestyle_db;\nselect * from users;\nUSE shestyle_db;\nselect * from users;\nSELECT email, password FROM Users WHERE email = 'admin5335@example.com';\nUSE shestyle_db;\nselect * from users;\nSELECT email, password FROM Users WHERE email = 'admin5335@example.com';\nselect * from users;\n\nUSE shestyle_db;\nselect * from users;\nUSE shestyle_db;\nselect * from users;\nSHOW TABLES;\nSHOW users;\nDESCRIBE Users;\n\nDESCRIBE Products;\n\n",
     "options": {
         "tabSize": 4,
         "insertSpaces": true,
@@ -15,11 +15,11 @@
             {
                 "inSelectionMode": false,
                 "selectionStart": {
-                    "lineNumber": 24,
+                    "lineNumber": 32,
                     "column": 1
                 },
                 "position": {
-                    "lineNumber": 24,
+                    "lineNumber": 32,
                     "column": 1
                 }
             }
@@ -27,10 +27,10 @@
         "viewState": {
             "scrollLeft": 0,
             "firstPosition": {
-                "lineNumber": 20,
+                "lineNumber": 30,
                 "column": 1
             },
-            "firstPositionDeltaTop": -23
+            "firstPositionDeltaTop": 144
         },
         "contributionsState": {
             "editor.contrib.folding": {},
@@ -77,8 +77,8 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "bfa78305-94ab-4ac2-8e68-19d84e86aa79",
-                        "0f5fde91-ca77-4a7e-b8b2-074245d2ada1"
+                        "836a32d3-c2cc-434e-af50-fb8cfd8c7386",
+                        "76936fcd-a728-44ba-bea5-d2aee6c26a20"
                     ]
                 },
                 "currentHeight": 286.58331298828125,
@@ -134,7 +134,7 @@
             "data": [
                 {
                     "tabId": "1",
-                    "resultId": "bfa78305-94ab-4ac2-8e68-19d84e86aa79",
+                    "resultId": "836a32d3-c2cc-434e-af50-fb8cfd8c7386",
                     "rows": [
                         {
                             "0": "databasetry"
@@ -187,7 +187,7 @@
                 },
                 {
                     "tabId": "1",
-                    "resultId": "0f5fde91-ca77-4a7e-b8b2-074245d2ada1",
+                    "resultId": "76936fcd-a728-44ba-bea5-d2aee6c26a20",
                     "rows": [
                         {
                             "0": "carts"
@@ -254,7 +254,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "37341919-ec97-4faf-d19c-ccea7a839339"
+                        "d7e7ef66-77f4-4a81-dd2c-8ccf603ada96"
                     ]
                 },
                 "currentHeight": 292,
@@ -274,7 +274,7 @@
             "data": [
                 {
                     "tabId": "1",
-                    "resultId": "37341919-ec97-4faf-d19c-ccea7a839339",
+                    "resultId": "d7e7ef66-77f4-4a81-dd2c-8ccf603ada96",
                     "rows": [
                         {
                             "0": "id",
@@ -472,7 +472,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "a3502a9a-ffcb-4212-d5cb-aeb147ca3cbb"
+                        "08dbbb01-b422-46cc-a853-d01ee6beba09"
                     ]
                 },
                 "currentHeight": 259,
@@ -492,7 +492,7 @@
             "data": [
                 {
                     "tabId": "1",
-                    "resultId": "a3502a9a-ffcb-4212-d5cb-aeb147ca3cbb",
+                    "resultId": "08dbbb01-b422-46cc-a853-d01ee6beba09",
                     "rows": [
                         {
                             "0": "id",
@@ -762,7 +762,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "744700e2-f045-4ede-8bd9-09910bb72d5e"
+                        "3e20c956-f8ad-4fd7-b620-7f507d83b33a"
                     ]
                 },
                 "currentHeight": 136,
@@ -791,7 +791,7 @@
             "data": [
                 {
                     "tabId": "1",
-                    "resultId": "744700e2-f045-4ede-8bd9-09910bb72d5e",
+                    "resultId": "3e20c956-f8ad-4fd7-b620-7f507d83b33a",
                     "rows": [
                         {
                             "0": 1,
@@ -938,7 +938,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "8513d3b2-fd02-4127-8780-197858afe541"
+                        "cb36e1e9-7bd1-49fe-d338-a2af8979e0ba"
                     ]
                 },
                 "currentHeight": 161,
@@ -967,7 +967,7 @@
             "data": [
                 {
                     "tabId": "1",
-                    "resultId": "8513d3b2-fd02-4127-8780-197858afe541",
+                    "resultId": "cb36e1e9-7bd1-49fe-d338-a2af8979e0ba",
                     "rows": [
                         {
                             "0": 1,
@@ -1158,7 +1158,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "58f92722-a428-4be4-be9a-cdabcff1d95a"
+                        "c5e4f2de-221e-425a-96a6-66c7edd9d8c7"
                     ]
                 },
                 "currentHeight": 352,
@@ -1196,7 +1196,7 @@
             "data": [
                 {
                     "tabId": "1",
-                    "resultId": "58f92722-a428-4be4-be9a-cdabcff1d95a",
+                    "resultId": "c5e4f2de-221e-425a-96a6-66c7edd9d8c7",
                     "rows": [
                         {
                             "0": 1,
@@ -1495,7 +1495,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "73b31a35-a9e1-4f7f-dd28-a88b3061cd98"
+                        "4b0f9adc-bd9c-4c3e-f6b8-698ae4c4ba10"
                     ]
                 },
                 "currentHeight": 352,
@@ -1524,7 +1524,7 @@
             "data": [
                 {
                     "tabId": "1",
-                    "resultId": "73b31a35-a9e1-4f7f-dd28-a88b3061cd98",
+                    "resultId": "4b0f9adc-bd9c-4c3e-f6b8-698ae4c4ba10",
                     "rows": [
                         {
                             "0": 1,
@@ -1748,6 +1748,783 @@
             "state": {
                 "start": 24,
                 "end": 24,
+                "language": "mysql",
+                "result": {
+                    "type": "text",
+                    "text": [
+                        {
+                            "type": 2,
+                            "index": 0,
+                            "resultId": "caf6463c-672c-4348-859b-f91968732ac8",
+                            "content": "OK, 0 records retrieved in 0.504ms"
+                        }
+                    ]
+                },
+                "currentHeight": 28,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 16
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 25,
+                "end": 25,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "1999a368-c970-448f-96dc-6de1e24d8573"
+                    ]
+                },
+                "currentHeight": 143,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 20
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "1",
+                    "resultId": "1999a368-c970-448f-96dc-6de1e24d8573",
+                    "rows": [
+                        {
+                            "0": 1,
+                            "1": "testuser10",
+                            "2": "testuser10@example.com",
+                            "3": "$2b$10$/cHxCkg7l/8ulIcQm18Oy.dmAcW1l4GLY5jigbatjdKHA2uF4pSCe",
+                            "4": "customer",
+                            "5": "2025-03-21 13:11:14",
+                            "6": "2025-03-21 13:11:14"
+                        },
+                        {
+                            "0": 2,
+                            "1": "aduser10",
+                            "2": "aduser10@example.com",
+                            "3": "$2b$10$/FAlOhJTwR09EikE.7Ba.OS/V9rDV7Oe1veeYPuhU25VTDtFHbKji",
+                            "4": "admin",
+                            "5": "2025-03-21 13:11:36",
+                            "6": "2025-03-21 13:11:36"
+                        },
+                        {
+                            "0": 3,
+                            "1": "aduser120",
+                            "2": "aduser120@example.com",
+                            "3": "$2b$10$PGRDgSh//lWfknA6W6O29OVcRsE2vbAEiCjEik8neLBVP8uLgiTOe",
+                            "4": "admin",
+                            "5": "2025-03-21 14:17:51",
+                            "6": "2025-03-21 14:17:51"
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "id",
+                            "field": "0",
+                            "dataType": {
+                                "type": 4,
+                                "flags": [
+                                    "SIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 10,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "INTEGER",
+                                    "INT4"
+                                ]
+                            },
+                            "inPK": true,
+                            "nullable": false,
+                            "autoIncrement": true
+                        },
+                        {
+                            "title": "name",
+                            "field": "1",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "email",
+                            "field": "2",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "password",
+                            "field": "3",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "role",
+                            "field": "4",
+                            "dataType": {
+                                "type": 43,
+                                "needsQuotes": true
+                            },
+                            "inPK": false,
+                            "nullable": true,
+                            "autoIncrement": false,
+                            "default": "customer"
+                        },
+                        {
+                            "title": "createdAt",
+                            "field": "5",
+                            "dataType": {
+                                "type": 26,
+                                "dateTimePrecision": 8,
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "updatedAt",
+                            "field": "6",
+                            "dataType": {
+                                "type": 26,
+                                "dateTimePrecision": 8,
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 3 records retrieved in 1.243ms"
+                    },
+                    "totalRowCount": 3,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "select * from users",
+                    "updatable": true,
+                    "fullTableName": "users"
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 26,
+                "end": 26,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "e4258b05-9445-4dfc-9b2c-c3ba0b2a9c24"
+                    ]
+                },
+                "currentHeight": 36,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 12
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "1",
+                    "resultId": "e4258b05-9445-4dfc-9b2c-c3ba0b2a9c24",
+                    "rows": [
+                        {
+                            "0": "carts"
+                        },
+                        {
+                            "0": "categories"
+                        },
+                        {
+                            "0": "orderitems"
+                        },
+                        {
+                            "0": "orders"
+                        },
+                        {
+                            "0": "products"
+                        },
+                        {
+                            "0": "reviews"
+                        },
+                        {
+                            "0": "users"
+                        },
+                        {
+                            "0": "wishlists"
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "Tables_in_shestyle_db",
+                            "field": "0",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 8 records retrieved in 1.637ms"
+                    },
+                    "totalRowCount": 8,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "SHOW TABLES",
+                    "updatable": false
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 27,
+                "end": 27,
+                "language": "mysql",
+                "result": {
+                    "type": "text",
+                    "text": [
+                        {
+                            "type": 0,
+                            "index": 0,
+                            "content": "MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'users' at line 1",
+                            "language": "ansi"
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": ""
+                    }
+                },
+                "currentHeight": 28,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 11
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 28,
+                "end": 29,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "da2ea43e-a165-42d8-a012-f9e1e80b9885"
+                    ]
+                },
+                "currentHeight": 242,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 15
+                        },
+                        "contentStart": 1,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 15,
+                            "length": 1
+                        },
+                        "contentStart": 14,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "1",
+                    "resultId": "da2ea43e-a165-42d8-a012-f9e1e80b9885",
+                    "rows": [
+                        {
+                            "0": "id",
+                            "1": "int",
+                            "2": "NO",
+                            "3": "PRI",
+                            "4": null,
+                            "5": "auto_increment"
+                        },
+                        {
+                            "0": "name",
+                            "1": "varchar(255)",
+                            "2": "NO",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "email",
+                            "1": "varchar(255)",
+                            "2": "NO",
+                            "3": "UNI",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "password",
+                            "1": "varchar(255)",
+                            "2": "NO",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "role",
+                            "1": "enum('customer','admin')",
+                            "2": "YES",
+                            "3": "",
+                            "4": "customer",
+                            "5": ""
+                        },
+                        {
+                            "0": "createdAt",
+                            "1": "datetime",
+                            "2": "NO",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "updatedAt",
+                            "1": "datetime",
+                            "2": "NO",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "Field",
+                            "field": "0",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "Type",
+                            "field": "1",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "Null",
+                            "field": "2",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "Key",
+                            "field": "3",
+                            "dataType": {
+                                "type": 43,
+                                "needsQuotes": true
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "Default",
+                            "field": "4",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "Extra",
+                            "field": "5",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 7 records retrieved in 1.906ms"
+                    },
+                    "totalRowCount": 7,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "DESCRIBE Users",
+                    "updatable": false
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 30,
+                "end": 31,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "3f88920f-84b1-4254-d694-2dca48336cc2"
+                    ]
+                },
+                "currentHeight": 292,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 18
+                        },
+                        "contentStart": 1,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 18,
+                            "length": 1
+                        },
+                        "contentStart": 17,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "1",
+                    "resultId": "3f88920f-84b1-4254-d694-2dca48336cc2",
+                    "rows": [
+                        {
+                            "0": "id",
+                            "1": "int",
+                            "2": "NO",
+                            "3": "PRI",
+                            "4": null,
+                            "5": "auto_increment"
+                        },
+                        {
+                            "0": "name",
+                            "1": "varchar(255)",
+                            "2": "NO",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "description",
+                            "1": "text",
+                            "2": "NO",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "price",
+                            "1": "decimal(10,2)",
+                            "2": "NO",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "stock",
+                            "1": "int",
+                            "2": "YES",
+                            "3": "",
+                            "4": "0",
+                            "5": ""
+                        },
+                        {
+                            "0": "images",
+                            "1": "text",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "createdAt",
+                            "1": "datetime",
+                            "2": "NO",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "updatedAt",
+                            "1": "datetime",
+                            "2": "NO",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "category_id",
+                            "1": "int",
+                            "2": "YES",
+                            "3": "MUL",
+                            "4": null,
+                            "5": ""
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "Field",
+                            "field": "0",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "Type",
+                            "field": "1",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "Null",
+                            "field": "2",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "Key",
+                            "field": "3",
+                            "dataType": {
+                                "type": 43,
+                                "needsQuotes": true
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "Default",
+                            "field": "4",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "Extra",
+                            "field": "5",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 9 records retrieved in 2.032ms"
+                    },
+                    "totalRowCount": 9,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "DESCRIBE Products",
+                    "updatable": false
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 32,
+                "end": 32,
                 "language": "mysql",
                 "currentSet": 1,
                 "statements": [
