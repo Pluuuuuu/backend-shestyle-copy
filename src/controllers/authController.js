@@ -8,7 +8,7 @@ const db = require('../config/db');
 //Ensured bcrypt.hash is used before saving passwords.
 exports.signup = async (req, res) => {
     try {
-        const { name, email, password, role } = req.body;
+        const { username:name, email, password, role } = req.body;
         const existingUser = await User.findOne({ where: { email } });
         // Check if user already exists
         if (existingUser) {
