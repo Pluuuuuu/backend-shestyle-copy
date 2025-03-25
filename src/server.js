@@ -1,7 +1,7 @@
 const express = require('express');
 const { sequelize } = require('./config/db'); // Importing Sequelize connection
 require('dotenv').config(); // Load environment variables
-
+JWT_SECRET="1~TFXeq]?eBA_c|Vo[~"
 // Importing Routes
 const authRoutes = require('./routes/authRoutes');
 const categoryRoutes = require('./routes/categoryRoutes');
