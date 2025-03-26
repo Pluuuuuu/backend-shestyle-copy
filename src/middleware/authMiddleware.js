@@ -15,6 +15,8 @@ exports.verifyToken = async (req, res, next) => {
         const token = authHeader.split(" ")[1];
         console.log("Extracted Token:", token); // Debugging statement
 
+        console.log( "JWT Secret in Backend:", process.env.JWT_SECRET ); 
+        
         const decoded = jwt.verify(token, process.env.JWT_SECRET);
         console.log("Decoded Token:", decoded); // Debugging statement
 
