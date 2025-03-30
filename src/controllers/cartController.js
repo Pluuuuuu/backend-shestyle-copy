@@ -53,3 +53,23 @@ exports.viewCart = async (req, res) => {
     res.status(500).json({ error: 'Failed to retrieve cart items' });
   }
 };
+
+// Update product quantity in cart
+exports.updateCartItem = async (req, res) => {
+  const { id } = req.params;
+  const { quantity } = req.body;
+
+  try {
+    let cartItem = await Cart.findByPk(id);
+    if (!cartItem) {
+      return res.status(404).json({ error: "Cart item not found" });
+    }
+
+    cartItem.quantity = quantity;
+    await cartItem.save();
+
+    res.json(cartItem);
+  } catch (error) {
+    res.status(500).json({ error: "Failed to update cart item" });
+  }
+};
