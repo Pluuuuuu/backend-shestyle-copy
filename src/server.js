@@ -19,6 +19,7 @@ app.use(
     allowedHeaders: ["Content-Type", "Authorization", "X-Requested-With"],
     credentials: true,
     maxAge: 600,
+    optionsSuccessStatus: 200,
   })
 );
 app.use(express.json()); // Middleware for parsing JSON requests
@@ -29,6 +30,8 @@ app.use((req, res, next) => {
 });
 // Serve static files from the public/uploads folder
 app.use("/uploads", express.static(path.join(__dirname, "public/uploads")));
+app.use("/uploads", express.static("public/uploads"));
+
 // API Test Route
 app.get('/', (req, res) => res.send('API is working!'));
 
