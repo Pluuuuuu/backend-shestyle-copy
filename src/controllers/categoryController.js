@@ -66,7 +66,7 @@ exports.getAllCategories = async (req, res) => {
         });
         return res.json(categories);
     } catch (error) {
-        return res.status(500).json({ error: 'Error fetching categories' });
+        return res.status(500).json({ error: 'Error fetching categories', error });
     }
 };
 
