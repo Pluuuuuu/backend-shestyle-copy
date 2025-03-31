@@ -51,53 +51,26 @@
 // seedDatabase();
 // const bcrypt = require('bcrypt');
 
-// const storedHash = "$2b$10$u.gQ5EWo/iSHMOuqN8sWZeYeR7mDLyqvnnclj2BAxx7WxNSThZQk2"; // The hashed password from your DB
-// const plainPassword = "password123"; // Replace with the password you're trying to check
+// const storedHash = "$2b$10$9kMYILAqnNKKXjFLUkPEp.9ro2mu1ef7szDTNG7vbCGkxSXIxLgYu"; // The hashed password from your DB
+// const plainPassword = "Admin1234"; // Replace with the password you're trying to check
 
-// bcrypt.compare(plainPassword.trim(), storedHash.trim()).then(isMatch => {
-//     console.log(isMatch); // Should log 'true' if the password is correct
-//   }).catch(err => console.error(err));
+// async function checkPassword() {
+//     try {
+//         const isMatch = await bcrypt.compare(plainPassword.trim(), storedHash.trim());
+//         console.log(isMatch); // Should log 'true' if the password is correct
+//     } catch (err) {
+//         console.error(err);
+//     }
+// }
 
-// const bcrypt = require('bcrypt');
-
-// const plainPassword = "password123"; // Same password you're testing
-
-// bcrypt.hash(plainPassword, 10, (err, hash) => {
-//   if (err) {
-//     console.error(err);
-//     return;
-//   }
-//   console.log("Generated Hash:", hash);
-// });
+// checkPassword();
 const bcrypt = require('bcrypt');
+const plainPassword = "Admin123";  // The password you're comparing
 
-// Function to hash and verify a password
-const readline = require('readline').createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
-
-readline.question("Enter a password to hash: ", (password) => {
-  const saltRounds = 10;
-
-  // Hash the password
-  bcrypt.hash(password, saltRounds, (err, hash) => {
+bcrypt.hash(plainPassword, 10, (err, hash) => {
     if (err) {
-      console.error("Error hashing password:", err);
-      readline.close();
-      return;
+        console.error(err);
+    } else {
+        console.log("Rehashed Password:", hash);
     }
-
-    console.log("Hashed Password:", hash);
-
-    // Compare the password with the generated hash
-    bcrypt.compare(password, hash, (err, result) => {
-      if (err) {
-        console.error("Error comparing password:", err);
-      } else {
-        console.log("Password matches:", result); // Should be true
-      }
-      readline.close();
-    });
-  });
 });

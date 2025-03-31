@@ -7,6 +7,10 @@ const Order = require('../models/Order');
 const { checkRole } = require('../middleware/roleMiddleware');
 const { verifyToken, isAdmin } = require('../middleware/authMiddleware');
 const router = express.Router();
+const { getUserProfile, updateUserProfile } = require("../controllers/userController");
+
+router.get("/profile", getUserProfile);
+router.put("/update",  updateUserProfile);
 
 // Admin Routes
 
