@@ -8,7 +8,8 @@ const authRoutes = require('./routes/authRoutes');
 const categoryRoutes = require('./routes/categoryRoutes');
 const productRoutes = require('./routes/productRoutes');
 const userRoutes = require('./routes/userRoutes');
-const cors = require("cors");
+const cartRoutes = require("./routes/cartRoutes");
+const cors = require( "cors" );
 const app = express();
 const adminRoutes = require("./routes/adminRoutes");
 app.use(
@@ -18,6 +19,7 @@ app.use(
     allowedHeaders: ["Content-Type", "Authorization", "X-Requested-With"],
     credentials: true,
     maxAge: 600,
+    optionsSuccessStatus: 200,
   })
 );
 app.use(express.json()); // Middleware for parsing JSON requests
@@ -28,6 +30,8 @@ app.use((req, res, next) => {
 });
 // Serve static files from the public/uploads folder
 app.use("/uploads", express.static(path.join(__dirname, "public/uploads")));
+app.use("/uploads", express.static("public/uploads"));
+
 // API Test Route
 app.get('/', (req, res) => res.send('API is working!'));
 
@@ -36,7 +40,8 @@ app.use('/api/auth', authRoutes);
 app.use('/api/categories', categoryRoutes);
 app.use('/api/products', productRoutes);
 app.use('/api/users', userRoutes);
-app.use("/api/admin", adminRoutes);
+app.use( "/api/admin", adminRoutes );
+app.use("/api/cart", cartRoutes);
 // Start Server After DB Connection
 const PORT = process.env.PORT || 5000;
 sequelize.authenticate()
